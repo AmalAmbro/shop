@@ -7,7 +7,7 @@ from api.models import Shop
 
 class ShopSerializer( serializers.ModelSerializer):
 
-    # image_url = serializers.SerializerMethodField()
+    image_url = serializers.SerializerMethodField()
 
     class Meta:
         model = Shop
